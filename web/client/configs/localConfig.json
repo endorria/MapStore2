@@ -260,7 +260,8 @@
       }
     },
     "plugins": {
-        "mobile": [{
+        "mobile": [
+          {
                 "name": "Map",
                 "cfg": {
                     "mapOptions": {
@@ -373,6 +374,9 @@
             { "name": "WidgetsTray" }
         ],
         "desktop": ["Details",
+          {
+            "name":"HelloWorld"
+          },
           {
             "name": "Map",
             "cfg": {
